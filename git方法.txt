@@ -1,0 +1,22 @@
+git init                初始化一个仓库
+                        第一步：进入目录 cd ~/Desktop/js进阶/73Git/demo  ====> 第二步：git init 就完成了初始化仓库（可以在demo文件夹里查看到隐藏文件夹.git(commad+shift+.来显示隐藏文件)）
+                        objects目录用于存储纳入缓存的文件
+                        refs目录存储纳入版本库的文件
+
+git add 文件名称         将未纳入缓存的文件变为第二类文件（纳入缓存）        
+                        将file.txt纳入缓存      =====> git add file.txt
+                        git add *将所有文件纳入缓存
+
+git rm 文件名称 --cache  将缓存文件移除缓存
+                        将缓存file.txt移除缓存      =====> git rm file.txt --cache
+
+git status              查看文件的状态
+                        加入缓存文件的会变为绿色
+
+git commit -m "说明"     将缓存中的文件加入版本库
+                        将缓存file.txt加入版本库     =====>git commit -m "add file.txt"
+                        说明一定要有意义
+
+
+                          
+                         
