@@ -1,3 +1,7 @@
+全局配置
+用户名称        git config --global user.name "Li Hui"
+用户邮箱        git config --global user.email "lihuiocean@hotmail.com"
+
 git init                初始化一个仓库
                         第一步：进入目录 cd ~/Desktop/js进阶/73Git/demo  ====> 第二步：git init 就完成了初始化仓库（可以在demo文件夹里查看到隐藏文件夹.git(commad+shift+.来显示隐藏文件)）
                         objects目录用于存储纳入缓存的文件
@@ -16,6 +20,16 @@ git status              查看文件的状态
 git commit -m "说明"     将缓存中的文件加入版本库
                         将缓存file.txt加入版本库     =====>git commit -m "add file.txt"
                         说明一定要有意义
+
+git diff 文件名称         查看修改的内容
+
+git log                 它会列出所有历史记录，最近的排在最上方
+                        commit id
+
+git reset --hard HEAD^         回退一个版本
+git reset --hard HEAD^^        回退两个版本
+git reset --hard HEAD~100      回退100个版本
+git reset --hard commit id     回退到指定的commitId 所在位置（通过git log 查看commit id）
 
 
                           
