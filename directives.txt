@@ -1,0 +1,17 @@
+进入Git目录
+    cd ~/Desktop/js进阶/72Git
+创建demo目录
+    mkdir demo
+进入demo目录
+    cd demo
+查看文件
+    ls
+创建文件
+    touch file.txt
+查看文件
+    ls
+写入内容
+    echo "你好世界" >> file.txt
+查看文件内容
+    cat file.txt
+    你好世界
